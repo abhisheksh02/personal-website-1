@@ -858,7 +858,7 @@ header .logo a {
 	content: "";
 	display: block;
 	background: #c25d02;
-	width: 120px;
+	width: 180px;
 	height: 3px;
 	position: absolute;
 	top: 0;
@@ -956,23 +956,10 @@ header .logo a {
 #main-404-content .bottom-links li {
 	float: left;
 	padding: 0 1.2rem;
+	color: #FFFFFF;
 }
 #main-404-content .bottom-links li:first-child {
 	padding-left: 0;
-}
-#main-404-content .bottom-links .credits {
-	font-size: 1.4rem;
-	line-height: 3rem;
-	color: rgba(255, 255, 255, 0.2);
-}
-#main-404-content .bottom-links .credits a {
-	color: rgba(255, 255, 255, 0.2);
-	display: inline-block;
-	border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
-}
-#main-404-content .bottom-links .credits a:hover,
-#main-404-content .bottom-links .credits a:focus {
-	color: #FFFFFF;
 }
 
 /**
@@ -1025,7 +1012,7 @@ header .logo a {
 
 .button{
   color: white;
-  font-family: "roboto-black", sans-serif;
+  font-family: "roboto-bold", sans-serif;
   text-transform: uppercase;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -1060,4 +1047,12 @@ header .logo a {
 
 .button:hover:after{
   height: 100%;
+}
+
+img{
+	position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   border: 1px solid grey;
 }
